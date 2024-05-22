@@ -1,0 +1,39 @@
+import React from 'react';
+import Layout from '../Layout';
+import "../Navbar.css";
+import './VerifyNews.css';
+
+function VerifyNews() {
+  return (
+    <Layout className="container">
+      <h2><b>VeriFy News</b></h2>
+
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <div className="container5">
+
+             <textarea placeholder="Enter New Here...." style={{ width: '700px', height: '250px' }} required></textarea>
+     
+
+      <br/><br/>
+
+      <button type="button" onClick={VerifyNews}>Verify it</button>
+       
+      <br/>
+      </div>
+      <h3 id="result" className='h3'></h3>
+
+      
+    </Layout>
+  );
+}
+
+export default VerifyNews;
+
+
